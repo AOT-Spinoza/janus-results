@@ -1,0 +1,15 @@
+{
+ "git_hash": "07eeb71",
+ "janus_version": "0.0.0.post97.dev0+6a8df3d",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+ "timestamp_utc": "2026-08-19T19:14:14.285278+00:00",
+ "maps": [
+  "motion UV",
+  "qwen_shared UV",
+  "qwen_diff UV (own scale)",
+  "direction UV (own scale)"
+ ],
+ "source": "/net/sys/pvsst000/data/FGB-CognitivePsychology-Knapen/tkn219/projects/AOT/janus/output/stage2/sub-001/shared_diff"
+}

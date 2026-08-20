@@ -1,10 +1,10 @@
 {
- "git_hash": "d98a556",
+ "git_hash": "f788a79",
  "janus_version": "0.0.0.post97.dev0+6a8df3d",
  "python": "3.11.15",
  "numpy": "2.4.6",
  "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
- "timestamp_utc": "2026-08-20T11:43:53.155545+00:00",
+ "timestamp_utc": "2026-08-20T13:19:11.204865+00:00",
  "datasets": [
   "01 s3 motion UV-ceil",
   "02 s3 encoder UV-ceil",
@@ -17,6 +17,7 @@
   "09 s4 err-latent UV-ceil",
   "10 s4 bw-minus-fw error UV",
   "11 s4 where-vs-what 2D",
-  "12 s5 cos(E,u) reliable"
+  "12 s5 cos(E,u) ceil>0.01",
+  "12b s5 cos(E,u) unmasked"
  ]
 }

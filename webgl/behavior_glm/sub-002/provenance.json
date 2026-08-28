@@ -1,0 +1,21 @@
+{
+ "git_hash": "41d1db0",
+ "janus_version": "0.0.0.post97.dev0+6a8df3d",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+ "timestamp_utc": "2026-08-28T19:41:58.776498+00:00",
+ "datasets": [
+  "01 behGLM t(s_fw) \u2014 fw-bw diff ~ fw 2AFC accuracy",
+  "02 behGLM t(s_bw) \u2014 fw-bw diff ~ bw 2AFC accuracy",
+  "03 behGLM t(intercept) \u2014 mean fw-bw diff (main effect)",
+  "04 behGLM beta(s_fw)",
+  "05 behGLM beta(s_bw)",
+  "06 behGLM 2D |t| \u2014 s_fw vs s_bw",
+  "07 behGLM-SDT t(d-prime) \u2014 sensitivity coupling",
+  "08 behGLM-SDT t(criterion c) \u2014 bias coupling",
+  "09 behGLM-SDT beta(d-prime)",
+  "10 behGLM-SDT beta(criterion c)",
+  "11 behGLM-SDT 2D |t| \u2014 d-prime vs criterion"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "git_hash": "238ace3",
+ "janus_version": "0.0.0.post97.dev0+6a8df3d",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+ "timestamp_utc": "2026-08-28T10:22:35.776348+00:00",
+ "datasets": [
+  "01 solo S (pooled spatial, control) UV",
+  "02 solo C (content) UV",
+  "03 solo E (latent error) UV",
+  "04 CE content UV",
+  "05 CE latent-error UV",
+  "06 CE content-vs-error 2D",
+  "07 JOINT motion UV",
+  "08 JOINT trajectory UV",
+  "09 JOINT pooled-spatial UV",
+  "10 JOINT latent-error UV",
+  "11 JOINT content UV",
+  "12 content-diff PC1 corr (rel +0.03)",
+  "13 content-diff PC2 corr (rel +0.12)",
+  "14 content-diff PC3 corr (rel +0.09)",
+  "15 content-diff PC4 corr (rel +0.08)",
+  "16 content-diff PC5 corr (rel +0.01)",
+  "17 content-diff PC6 corr (rel +0.02)",
+  "18 difference-PC1 loading (basis, rel +0.62)",
+  "19 difference-PC2 loading (basis, rel +0.94)",
+  "20 difference-PC3 loading (basis, rel +0.86)",
+  "21 difference-PC4 loading (basis, rel +0.86)",
+  "22 difference-PC5 loading (basis, rel +0.82)",
+  "23 difference-PC6 loading (basis, rel +0.90)"
+ ]
+}

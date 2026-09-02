@@ -1,0 +1,191 @@
+{
+ "k": 4,
+ "n": 3,
+ "basis": "full-cohort group basis",
+ "axes": [
+  {
+   "axis": 1,
+   "pos": [
+    {
+     "video_id": 1276,
+     "score": 18.193,
+     "file": "pc01_pos1_clip1276.mp4",
+     "caption": "A person rolls out a large, flat piece of dough on a wooden surface using a wooden rolling pin, ensuring the dough becomes thinner and more even in texture."
+    },
+    {
+     "video_id": 1539,
+     "score": 17.537,
+     "file": "pc01_pos2_clip1539.mp4",
+     "caption": "A person uses a pastry wheel to cut a large, flat sheet of dough into triangular shapes on a floured wooden surface, with the cut edges forming a zigzag pattern."
+    },
+    {
+     "video_id": 1108,
+     "score": 17.171,
+     "file": "pc01_pos3_clip1108.mp4",
+     "caption": "A person meticulously seals a dumpling filled with a mixture of green vegetables and possibly meat, using their fingers to pinch the edges together. Several uncooked dumpling wrappers and a dusting of flour are scattered on the wooden table surface."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 2173,
+     "score": -13.532,
+     "file": "pc01_neg1_clip2173.mp4",
+     "caption": "Four individuals, dressed in warm, casual attire including jackets and hoodies, walk together along a paved pathway lined with trees and a glass-enclosed structure, engaging in conversation and laughter as they move forward."
+    },
+    {
+     "video_id": 2120,
+     "score": -13.095,
+     "file": "pc01_neg2_clip2120.mp4",
+     "caption": "A modern, loft-style office features exposed brick walls and industrial lighting. A woman in glasses, a pink jacket, and blue jeans stands confidently at the front of a room, gesturing as she speaks to a group of four casually dressed individuals seated on the floor, who are attentively listening and smiling."
+    },
+    {
+     "video_id": 1303,
+     "score": -12.316,
+     "file": "pc01_neg3_clip1303.mp4",
+     "caption": "A diverse group of five professionals, including two women wearing hijabs, a man with glasses, and a blonde woman in a light blue blazer, are gathered closely around a laptop on a table, engaging in a collaborative discussion. The blonde woman points at the screen while the others attentively observe and contribute to the conversation."
+    }
+   ]
+  },
+  {
+   "axis": 2,
+   "pos": [
+    {
+     "video_id": 41,
+     "score": 17.499,
+     "file": "pc02_pos1_clip0041.mp4",
+     "caption": "Rolling hills blanketed with vibrant yellow wildflowers, interspersed with patches of purple blooms, stretch under a clear blue sky. Winding roads cut through the landscape, and distant mountains add depth to the serene natural scenery."
+    },
+    {
+     "video_id": 98,
+     "score": 17.074,
+     "file": "pc02_pos2_clip0098.mp4",
+     "caption": "A breathtaking aerial scene reveals a rugged, mountainous landscape with a diverse palette of earthy tones, featuring undulating hills and valleys interspersed with patches of green vegetation, winding streams, and distant snow-capped peaks under a partly cloudy sky."
+    },
+    {
+     "video_id": 61,
+     "score": 16.912,
+     "file": "pc02_pos3_clip0061.mp4",
+     "caption": "A serene landscape features lush green hills with vibrant yellow patches, calm turquoise waters that mirror the sky and clouds, and distant mountains under a partly cloudy blue sky, creating a harmonious blend of natural beauty."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 1173,
+     "score": -13.096,
+     "file": "pc02_neg1_clip1173.mp4",
+     "caption": "A dimly lit gym features exposed brick walls and various exercise equipment in the background. A woman dressed in athletic wear performs a box jump onto a wooden box. A shirtless man wearing black shorts stands nearby, observing her with his hands at his sides."
+    },
+    {
+     "video_id": 1062,
+     "score": -13.064,
+     "file": "pc02_neg2_clip1062.mp4",
+     "caption": "A man lies on his back on a bed, laughing heartily with his mouth wide open, while another person, partially visible and wearing dark shorts, playfully wrestles or tickles him from above."
+    },
+    {
+     "video_id": 593,
+     "score": -12.733,
+     "file": "pc02_neg3_clip0593.mp4",
+     "caption": "A young child, wearing a dark blue shirt and denim shorts, playfully wrestles with an adult lying on their back on a light wooden floor. Both laugh as the child straddles the adult's chest and then shifts to hug them tightly. In the background, another person sits on a white rug with legs crossed, holding a smartphone."
+    }
+   ]
+  },
+  {
+   "axis": 3,
+   "pos": [
+    {
+     "video_id": 1994,
+     "score": 13.678,
+     "file": "pc03_pos1_clip1994.mp4",
+     "caption": "A vibrant urban skate park adorned with graffiti features a skateboarder executing a precise grind on a concrete ledge. Spectators and other skaters watch from various vantage points under a clear sky."
+    },
+    {
+     "video_id": 826,
+     "score": 12.934,
+     "file": "pc03_pos2_clip0826.mp4",
+     "caption": "A skateboarder, dressed in a dark hoodie and jeans, skillfully performs a trick by launching off a ramp in an indoor space adorned with vibrant graffiti on the walls and columns, landing smoothly back on the board as they continue their dynamic ride through the urban setting."
+    },
+    {
+     "video_id": 1929,
+     "score": 12.835,
+     "file": "pc03_pos3_clip1929.mp4",
+     "caption": "A group of people, including a skateboarder in the foreground and others on bicycles further back, move along a paved path at sunset. The sun casts long shadows and a warm glow. Tall residential buildings and a busy street with cars line the left side of the scene."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 1419,
+     "score": -14.103,
+     "file": "pc03_neg1_clip1419.mp4",
+     "caption": "A young man with red hair and a matching beard, wearing a light pink t-shirt, stands against a solid blue background. He initially faces to the left with a neutral expression, then turns his head slightly forward while opening his mouth as if speaking or reacting."
+    },
+    {
+     "video_id": 1476,
+     "score": -13.912,
+     "file": "pc03_neg2_clip1476.mp4",
+     "caption": "A man with a contemplative expression, wearing a white shirt, gently touches his face with his fingers while looking downward, suggesting deep thought or concern."
+    },
+    {
+     "video_id": 705,
+     "score": -13.466,
+     "file": "pc03_neg3_clip0705.mp4",
+     "caption": "A person with short, tousled brown hair and wearing large, round, tortoiseshell glasses holds a pencil above their head with their right hand, looking to the side with a thoughtful expression while slightly tilting their head."
+    }
+   ]
+  },
+  {
+   "axis": 4,
+   "pos": [
+    {
+     "video_id": 975,
+     "score": 11.92,
+     "file": "pc04_pos1_clip0975.mp4",
+     "caption": "A person wearing glasses uses a hammer to secure or adjust a wooden handle, holding it firmly with their other hand in a focused and precise manner."
+    },
+    {
+     "video_id": 1827,
+     "score": 10.324,
+     "file": "pc04_pos2_clip1827.mp4",
+     "caption": "A brightly lit room is filled with cardboard boxes. A man in a gray hoodie and black pants kneels on the floor, assembling a small white table with black legs. A woman in a white shirt and light-colored pants sits beside him, holding a plastic bag of screws and bolts. Both appear focused on their task. Large windows with gray curtains and an open door frame the scene."
+    },
+    {
+     "video_id": 641,
+     "score": 10.11,
+     "file": "pc04_pos3_clip0641.mp4",
+     "caption": "A woman, wearing a white knitted sweater, assists a young child dressed in a pink outfit as they sit at a wooden dining table. The woman gently guides the child's hands, which hold a knife and fork, to cut into a piece of food on a white plate that also contains slices of apple. A yellow bowl with a wooden spoon and another white bowl are placed nearby on the table."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 1210,
+     "score": -14.261,
+     "file": "pc04_neg1_clip1210.mp4",
+     "caption": "A dynamic, abstract 3D object composed of intertwined metallic and fiery elements continuously morphs and rotates against a stark black background, with glowing orange and red molten sections that appear to be melting or burning through the structure, creating an intense and fluid visual effect."
+    },
+    {
+     "video_id": 2125,
+     "score": -14.159,
+     "file": "pc04_neg2_clip2125.mp4",
+     "caption": "A close-up of a chameleon's head reveals its intricate eye structure, featuring a prominent, independently moving eye with vivid green and brown coloration. The eye is surrounded by detailed scales in various shades of green, yellow, and brown, all set against a softly blurred natural background."
+    },
+    {
+     "video_id": 1512,
+     "score": -13.536,
+     "file": "pc04_neg3_clip1512.mp4",
+     "caption": "A mesmerizing display of glowing yellow-orange blobs floats and merges within a vibrant red liquid, creating a dynamic and fluid motion that resembles the behavior of wax in a lava lamp."
+    }
+   ]
+  }
+ ],
+ "evr": [
+  0.141,
+  0.1163,
+  0.0572,
+  0.0246
+ ],
+ "prov_git_hash": "d06e029",
+ "prov_janus_version": "0.0.0.post97.dev0+6a8df3d",
+ "prov_python": "3.11.15",
+ "prov_numpy": "2.4.6",
+ "prov_platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+ "prov_timestamp_utc": "2026-09-02T07:10:33.913322+00:00"
+}

@@ -1,0 +1,279 @@
+{
+ "k": 6,
+ "n": 3,
+ "basis": "group PCA of the V-JEPA error-band encoding weights",
+ "axes": [
+  {
+   "axis": 1,
+   "pos": [
+    {
+     "video_id": 2078,
+     "score": 8.13,
+     "file": "epc01_pos1_clip2078.mp4",
+     "caption": "A person wearing gloves uses a large metal spatula to spread sliced onions evenly over a partially baked pizza topped with melted cheese and herbs, all placed on a round metal baking tray."
+    },
+    {
+     "video_id": 1278,
+     "score": 6.954,
+     "file": "epc01_pos2_clip1278.mp4",
+     "caption": "A hand uses a spoon to spread a dark, syrupy substance over the surface of a large, golden-brown pancake resting on a piece of parchment paper, with a blurred red mug in the background."
+    },
+    {
+     "video_id": 1106,
+     "score": 6.777,
+     "file": "epc01_pos3_clip1106.mp4",
+     "caption": "A person spreads a generous amount of white cream cheese onto a slice of freshly baked, golden-brown bread with visible dark raisins embedded within it, all placed on a wooden cutting board."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 1797,
+     "score": -5.68,
+     "file": "epc01_neg1_clip1797.mp4",
+     "caption": "Two men walk side by side in a well-lit room with bookshelves filled with books and boxes in the background, engaged in conversation. The man on the left has gray hair and a beard, wears glasses, and is dressed in a brown shirt over a yellow t-shirt. He gestures with his hands while holding a smartphone in his right hand. The man on the right has dark hair and a beard and wears a red polo shirt."
+    },
+    {
+     "video_id": 1405,
+     "score": -5.545,
+     "file": "epc01_neg2_clip1405.mp4",
+     "caption": "A group of seven individuals, dressed in casual and semi-casual attire, are gathered in a well-lit, modern living room with white walls, wooden flooring, and minimalistic furniture. They engage in a lively discussion or presentation, with one person in a yellow sweater at the center gesturing animatedly while the others around him listen attentively and respond with gestures, contributing to an interactive and dynamic atmosphere."
+    },
+    {
+     "video_id": 1866,
+     "score": -5.492,
+     "file": "epc01_neg3_clip1866.mp4",
+     "caption": "A dimly lit bar features an extensive array of bottles in the background. A man with curly hair wears a black blazer and white shirt, sitting across from a woman with long brown hair dressed in a beige top. Both hold glasses of alcohol as they engage in a serious conversation, their expressions reflecting concern and attentiveness."
+    }
+   ]
+  },
+  {
+   "axis": 2,
+   "pos": [
+    {
+     "video_id": 1755,
+     "score": 7.859,
+     "file": "epc02_pos1_clip1755.mp4",
+     "caption": "A person with neatly manicured nails, positioned against a plain white background, uses a white wet wipe to meticulously clean their left hand, wiping in circular motions before focusing on the fingers to ensure thorough cleanliness."
+    },
+    {
+     "video_id": 1639,
+     "score": 6.747,
+     "file": "epc02_pos2_clip1639.mp4",
+     "caption": "Three women perform a synchronized dance routine in a studio with a beige backdrop. The woman on the left wears a white t-shirt and light blue jeans, the woman in the center is dressed in a white crop top and black pants, and the woman on the right sports a white t-shirt and dark blue jeans, all three wearing white sneakers. They execute a series of coordinated movements, including arm gestures and leg steps, maintaining a dynamic and energetic presence throughout the sequence."
+    },
+    {
+     "video_id": 1657,
+     "score": 6.732,
+     "file": "epc02_pos3_clip1657.mp4",
+     "caption": "A person with short hair, wearing a white t-shirt, initially gestures dismissively towards a hand offering a tissue box against a solid orange background, then dramatically grabs a tissue from the box, raises it above their head, and finally brings it down to cover their mouth as if sneezing or reacting to something."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 60,
+     "score": -9.281,
+     "file": "epc02_neg1_clip0060.mp4",
+     "caption": "A breathtaking aerial scene reveals a densely packed urban landscape, featuring towering skyscrapers that stretch towards a partly cloudy sky. A prominent green park cuts through the cityscape, while expansive water bodies flank the sides, all bathed in the warm glow of sunlight."
+    },
+    {
+     "video_id": 108,
+     "score": -9.174,
+     "file": "epc02_neg2_clip0108.mp4",
+     "caption": "Rolling hills are blanketed with vibrant yellow wildflowers, interspersed with patches of green vegetation and earthy brown soil, under a clear blue sky."
+    },
+    {
+     "video_id": 41,
+     "score": -9.015,
+     "file": "epc02_neg3_clip0041.mp4",
+     "caption": "Rolling hills blanketed with vibrant yellow wildflowers, interspersed with patches of purple blooms, stretch under a clear blue sky. Winding roads cut through the landscape, and distant mountains add depth to the serene natural scenery."
+    }
+   ]
+  },
+  {
+   "axis": 3,
+   "pos": [
+    {
+     "video_id": 738,
+     "score": 8.44,
+     "file": "epc03_pos1_clip0738.mp4",
+     "caption": "A cowboy, dressed in a blue shirt, black vest, and cowboy hat, rides a bucking bronco in a rodeo arena, with his arms outstretched for balance as the horse bucks vigorously. An excited crowd watches from behind a metal fence."
+    },
+    {
+     "video_id": 364,
+     "score": 8.028,
+     "file": "epc03_pos2_clip0364.mp4",
+     "caption": "A young man in a black hoodie and red shorts energetically dribbles the basketball, leaps into the air with remarkable agility, and dunks the ball through the hoop on an outdoor court surrounded by a green fence and trees under a bright, partly cloudy sky."
+    },
+    {
+     "video_id": 2146,
+     "score": 7.707,
+     "file": "epc03_pos3_clip2146.mp4",
+     "caption": "A dynamic and visually striking animation of a DNA double helix unfolds, with one strand glowing in vibrant yellow while the other appears dark, both unraveling and breaking apart amidst a flurry of fragmented pieces and particles against a deep blue background."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 1419,
+     "score": -8.171,
+     "file": "epc03_neg1_clip1419.mp4",
+     "caption": "A young man with red hair and a matching beard, wearing a light pink t-shirt, stands against a solid blue background. He initially faces to the left with a neutral expression, then turns his head slightly forward while opening his mouth as if speaking or reacting."
+    },
+    {
+     "video_id": 241,
+     "score": -7.518,
+     "file": "epc03_neg2_clip0241.mp4",
+     "caption": "A hand, clad in a white long-sleeved garment, gently holds a small, transparent vial containing a clear liquid against a solid blue background."
+    },
+    {
+     "video_id": 187,
+     "score": -7.193,
+     "file": "epc03_neg3_clip0187.mp4",
+     "caption": "Three women with long hair of varying colors\u2014blonde, red, and black\u2014are closely huddled together, their heads resting on each other's shoulders in a tender embrace, conveying a sense of intimacy and connection against a soft, neutral background."
+    }
+   ]
+  },
+  {
+   "axis": 4,
+   "pos": [
+    {
+     "video_id": 913,
+     "score": 7.445,
+     "file": "epc04_pos1_clip0913.mp4",
+     "caption": "A mesmerizing, dynamic pattern of interconnected, fluid-like shapes pulsates and shifts in vibrant hues of neon green, blue, pink, and purple against a dark background, creating an almost otherworldly, iridescent texture that continuously evolves and transforms."
+    },
+    {
+     "video_id": 2084,
+     "score": 7.08,
+     "file": "epc04_pos2_clip2084.mp4",
+     "caption": "Vigorously boiling water shows numerous bubbles rapidly forming and bursting on the surface, creating a dynamic and frothy texture."
+    },
+    {
+     "video_id": 914,
+     "score": 7.07,
+     "file": "epc04_pos3_clip0914.mp4",
+     "caption": "A mesmerizing, dynamic pattern of interconnected, glossy, and fluid-like shapes pulsates and shifts in vibrant hues of red, orange, yellow, and blue, creating an illusion of depth and movement as if observing a living, breathing, and constantly evolving organic surface."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 1603,
+     "score": -6.593,
+     "file": "epc04_neg1_clip1603.mp4",
+     "caption": "A large aircraft taxis on a wet runway, leaving a trail of water spray behind it. The sky is overcast with patches of sunlight breaking through. A red navigation light stands prominently in the foreground, while a sparse landscape with bare trees and distant buildings stretches into the horizon."
+    },
+    {
+     "video_id": 2136,
+     "score": -6.355,
+     "file": "epc04_neg2_clip2136.mp4",
+     "caption": "Two individuals jog along a narrow, winding path through a misty, lush green landscape, surrounded by dense fog that obscures the distant trees and vegetation, creating a serene and ethereal atmosphere."
+    },
+    {
+     "video_id": 624,
+     "score": -6.003,
+     "file": "epc04_neg3_clip0624.mp4",
+     "caption": "A man in a wheelchair, wearing a gray shirt and black shorts, leans forward to reach for a basketball on the floor of an indoor basketball court, while a prosthetic leg stands upright on a wooden bench nearby."
+    }
+   ]
+  },
+  {
+   "axis": 5,
+   "pos": [
+    {
+     "video_id": 1640,
+     "score": 5.156,
+     "file": "epc05_pos1_clip1640.mp4",
+     "caption": "A woman wears a white Abercrombie crop top and high-waisted blue jeans. She adjusts her clothing, revealing her midriff and a small tattoo on her left forearm, while standing against a plain beige background."
+    },
+    {
+     "video_id": 1726,
+     "score": 4.751,
+     "file": "epc05_pos2_clip1726.mp4",
+     "caption": "A hand vigorously whisks a bright yellow mixture of eggs in a clear glass bowl, creating a frothy texture as the whisk moves swiftly through the liquid."
+    },
+    {
+     "video_id": 1580,
+     "score": 4.489,
+     "file": "epc05_pos3_clip1580.mp4",
+     "caption": "A young boy with short blonde hair wears a white shirt against a vibrant red background. His face is smeared with chocolate around his mouth and cheeks as he playfully sticks out his tongue and blinks his eyes."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 1745,
+     "score": -5.822,
+     "file": "epc05_neg1_clip1745.mp4",
+     "caption": "A woman with blonde hair, wearing a brown shirt and a patterned scarf, joyfully carries a baby on her shoulders as they both smile and move their arms in a playful manner, set against a backdrop of a modern kitchen with white cabinets and a mounted light fixture."
+    },
+    {
+     "video_id": 1223,
+     "score": -5.068,
+     "file": "epc05_neg2_clip1223.mp4",
+     "caption": "A young person with long hair tied back stands in a dimly lit environment bathed in red light, smiling gently while facing slightly away, with horizontal shadows cast across their face and the background."
+    },
+    {
+     "video_id": 1115,
+     "score": -5.025,
+     "file": "epc05_neg3_clip1115.mp4",
+     "caption": "A person's hands hold a fanned-out set of playing cards, including the six of diamonds, jack of diamonds, ace of spades, and eight of spades, while other cards are placed face down on a white surface in a neat row."
+    }
+   ]
+  },
+  {
+   "axis": 6,
+   "pos": [
+    {
+     "video_id": 287,
+     "score": 6.586,
+     "file": "epc06_pos1_clip0287.mp4",
+     "caption": "Two pairs of hands, one with yellow nail polish and the other with a mix of yellow and pink nail polish, appear against a blue background with horizontal light stripes, moving rhythmically as if dancing or clapping."
+    },
+    {
+     "video_id": 1726,
+     "score": 5.704,
+     "file": "epc06_pos2_clip1726.mp4",
+     "caption": "A hand vigorously whisks a bright yellow mixture of eggs in a clear glass bowl, creating a frothy texture as the whisk moves swiftly through the liquid."
+    },
+    {
+     "video_id": 2164,
+     "score": 5.668,
+     "file": "epc06_pos3_clip2164.mp4",
+     "caption": "Vibrant, flickering flames dance around dark, charred pieces of wood, their intense orange and yellow hues illuminating the surrounding embers and casting dynamic shadows in a dimly lit environment."
+    }
+   ],
+   "neg": [
+    {
+     "video_id": 2046,
+     "score": -6.568,
+     "file": "epc06_neg1_clip2046.mp4",
+     "caption": "A basketball player in a light-colored shirt and dark shorts dribbles the ball toward the hoop on a vibrant red outdoor court, then shoots with a graceful arc while running forward, his shadow stretching long across the court's surface."
+    },
+    {
+     "video_id": 243,
+     "score": -6.11,
+     "file": "epc06_neg2_clip0243.mp4",
+     "caption": "A hand reaches from the right side and gently grasps a chocolate-glazed donut adorned with white and brown sprinkles, placed on a light gray plate against a solid purple background."
+    },
+    {
+     "video_id": 868,
+     "score": -6.044,
+     "file": "epc06_neg3_clip0868.mp4",
+     "caption": "A woman in a beige leotard performs a fluid, continuous movement on a light wooden floor against a plain beige wall. She transitions from a deep forward bend with her hands and feet on the ground to a dynamic pose, extending one arm outward while maintaining balance on her other hand and feet."
+    }
+   ]
+  }
+ ],
+ "evr": [
+  0.12,
+  0.1125,
+  0.0723,
+  0.0482,
+  0.0352,
+  0.0319
+ ],
+ "prov_git_hash": "b5d01b3",
+ "prov_janus_version": "0.0.0.post97.dev0+6a8df3d",
+ "prov_python": "3.11.15",
+ "prov_numpy": "2.4.6",
+ "prov_platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+ "prov_timestamp_utc": "2026-09-02T18:30:19.934968+00:00"
+}

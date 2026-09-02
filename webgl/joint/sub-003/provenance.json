@@ -1,0 +1,22 @@
+{
+ "git_hash": "680de0d",
+ "janus_version": "0.0.0.post97.dev0+6a8df3d",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+ "timestamp_utc": "2026-09-02T08:28:01.171340+00:00",
+ "maps": [
+  "01 beta_c (backward-able content)",
+  "02 beta_s*dprime (detectability-scaled reversal)",
+  "03 beta_s*c (criterion-scaled reversal)",
+  "04 beta_s (uniform reversal)",
+  "05 behavior-band alignment / ceiling",
+  "06 total alignment / ceiling",
+  "07 semantic PC1 score",
+  "08 semantic PC2 score",
+  "09 semantic PC3 score",
+  "10 semantic PC4 score",
+  "11 semantic PC5 score",
+  "12 semantic PC6 score"
+ ]
+}

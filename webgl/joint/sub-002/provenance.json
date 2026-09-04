@@ -1,10 +1,10 @@
 {
- "git_hash": "8d61e93",
+ "git_hash": "c074653",
  "janus_version": "0.0.0.post97.dev0+6a8df3d",
  "python": "3.11.15",
  "numpy": "2.4.6",
  "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
- "timestamp_utc": "2026-09-02T18:41:32.377943+00:00",
+ "timestamp_utc": "2026-09-04T08:23:41.353918+00:00",
  "maps": [
   "01 beta_c (backward-able content)",
   "02 beta_s*dprime (detectability-scaled reversal)",
@@ -21,6 +21,9 @@
   "13 V-JEPA error-band unique variance",
   "14 error-band held-out R2 gain (rung1+err - rung1)",
   "15 personal-basis contrast (K5-own - K5-own-shufPC)",
+  "22 V-JEPA encoder-band unique variance",
+  "23 encoder-band held-out R2 gain (rung1+enc - rung1)",
+  "24 content vs prediction-error (rung1+enc - rung1+err)",
   "16 dynamics axis 1 (V-JEPA error-weight group PCA)",
   "17 dynamics axis 2 (V-JEPA error-weight group PCA)",
   "18 dynamics axis 3 (V-JEPA error-weight group PCA)",

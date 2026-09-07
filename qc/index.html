@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AOT preprocessing QC — per-run EPI videos</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 860px; margin: 2.5rem auto; padding: 0 1.2rem; color: #212121;
+         line-height: 1.55; }
+  h1 { font-size: 1.55rem; margin-bottom: .2rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  .sub { color: #757575; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+  th, td { text-align: left; padding: .45rem .7rem; border-bottom: 1px solid #e0e0e0;
+           font-size: .95rem; }
+  th { color: #616161; font-weight: 600; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .pending { color: #9e9e9e; }
+  .note { background: #f5f5f5; border-radius: 8px; padding: .9rem 1.1rem;
+          font-size: .92rem; margin-top: 1.2rem; }
+  code { background: #f0f0f0; padding: .05rem .3rem; border-radius: 4px;
+         font-size: .88em; }
+  footer { color: #9e9e9e; font-size: .8rem; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<h1>Preprocessing QC — the whole experiment in ten seconds</h1>
+<p class="sub">AOT 7T dataset · per-run mean EPI videos · one frame per run</p>
+
+<p>Each video plays through <strong>every AOT run of one participant's experiment in
+chronological order</strong> (9–12 sessions, 90–120 runs), at one frame per run and
+about ten seconds total. A frame is the time-average of that run's fully preprocessed
+BOLD series (<code>space-T1w</code>, 1.25&nbsp;mm, NORDIC + slice-timing), shown as
+axial / coronal / sagittal mid-slices with the session and run stamped top-left.
+Because every run is resampled into the same anatomical space, a well-preprocessed
+experiment should look like a <em>still photograph</em>: anatomy pinned in place across
+months of scanning, with only slow intensity changes.</p>
+
+<h2>How to read the two variants</h2>
+<p><strong>Fixed window</strong> — one intensity scale for the whole experiment (0 to the
+global 99th percentile). Signal drift, coil-sensitivity changes, or a session with
+different gain show up as <em>flicker in brightness</em>; nothing is autoscaled away.<br>
+<strong>Normalized</strong> — each run windowed to its own 99th percentile. Brightness is
+equalized, so what remains is <em>pure geometry</em>: registration stability, dropout
+footprint, vessel patterns. A jump here that is absent in the fixed-window version is a
+spatial problem, not an intensity one.</p>
+
+<h2>Videos</h2>
+<table>
+  <tr><th>participant</th><th>runs</th><th>sessions</th>
+      <th>fixed window</th><th>normalized</th></tr>
+  <tr><td>sub-001</td><td>100</td><td>10</td>
+      <td><a href="sub-001_epi_runmeans.mp4">mp4</a></td>
+      <td><a href="sub-001_epi_runmeans_norm.mp4">mp4</a></td></tr>
+  <tr><td>sub-002</td><td>90</td><td>9</td>
+      <td><a href="sub-002_epi_runmeans.mp4">mp4</a></td>
+      <td><a href="sub-002_epi_runmeans_norm.mp4">mp4</a></td></tr>
+  <tr><td>sub-003</td><td>120</td><td>12</td>
+      <td><a href="sub-003_epi_runmeans.mp4">mp4</a></td>
+      <td><a href="sub-003_epi_runmeans_norm.mp4">mp4</a></td></tr>
+  <tr><td>sub-004</td><td>120</td><td>12</td>
+      <td><a href="sub-004_epi_runmeans.mp4">mp4</a></td>
+      <td><a href="sub-004_epi_runmeans_norm.mp4">mp4</a></td></tr>
+  <tr><td>sub-005</td><td>120</td><td>12</td>
+      <td><a href="sub-005_epi_runmeans.mp4">mp4</a></td>
+      <td><a href="sub-005_epi_runmeans_norm.mp4">mp4</a></td></tr>
+  <tr><td>sub-006</td><td>120</td><td>12</td>
+      <td><a href="sub-006_epi_runmeans.mp4">mp4</a></td>
+      <td><a href="sub-006_epi_runmeans_norm.mp4">mp4</a></td></tr>
+  <tr><td>sub-007</td><td></td><td></td>
+      <td><a href="sub-007_epi_runmeans.mp4">mp4</a></td>
+      <td><a href="sub-007_epi_runmeans_norm.mp4">mp4</a></td></tr>
+  <tr><td>sub-008</td><td></td><td></td>
+      <td><a href="sub-008_epi_runmeans.mp4">mp4</a></td>
+      <td><a href="sub-008_epi_runmeans_norm.mp4">mp4</a></td></tr>
+</table>
+
+<p class="note">Links go live as the encoding chains finish (a 404 means that variant is
+still rendering). Underlying data products, one per participant: a 4D NIfTI of the
+per-run means
+(<code>output/qc/sub-XXX_task-AOT_desc-runmean_res-1p25mm_bold.nii.gz</code>) with a CSV
+mapping frame&nbsp;→&nbsp;session/run, built by
+<code>scripts/qc_epi_run_video.py</code> in the janus repository. The pRF session is
+excluded; frame rate is set per participant so every video lasts ~10&nbsp;s.</p>
+
+<footer>AOT · janus QC · generated 2026-09-07 · <a href="../index.html">back to results
+index</a></footer>
+</body>
+</html>

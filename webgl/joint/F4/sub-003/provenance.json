@@ -1,10 +1,10 @@
 {
- "git_hash": "c7a79dd",
+ "git_hash": "39fc46b",
  "janus_version": "0.0.0.post97.dev0+6a8df3d",
  "python": "3.11.15",
  "numpy": "2.4.6",
  "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
- "timestamp_utc": "2026-09-08T15:42:27.947304+00:00",
+ "timestamp_utc": "2026-09-09T02:28:01.025841+00:00",
  "maps": [
   "01 beta_c (judged backward-ability, same on both renders)",
   "02 beta_d' (arrow visibility, same on both renders)",

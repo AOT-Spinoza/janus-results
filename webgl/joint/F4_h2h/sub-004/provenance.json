@@ -1,0 +1,30 @@
+{
+ "git_hash": "527cee1",
+ "janus_version": "0.0.0.post269.dev0+f2a571d",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+ "timestamp_utc": "2026-09-26T00:14:49.275047+00:00",
+ "maps": [
+  "00a static pair MEASURED: purple c / green d'",
+  "00b static pair MIRROR (content-predicted), same scale",
+  "01a c MEASURED",
+  "01b c MIRROR (content-predicted), same scale",
+  "01c c AGREEMENT 2D: measured in c's hue / mirror grey (blue<0)",
+  "01d c FLIP measured<->mirror (frame slider)",
+  "02a d' MEASURED",
+  "02a dynamic pair MEASURED: purple s*c / green s*d'",
+  "02b d' MIRROR (content-predicted), same scale",
+  "02b dynamic pair MIRROR (content-predicted), same scale",
+  "02c d' AGREEMENT 2D: measured in d''s hue / mirror grey (blue<0)",
+  "02d d' FLIP measured<->mirror (frame slider)",
+  "03a s*c MEASURED",
+  "03b s*c MIRROR (content-predicted), same scale",
+  "03c s*c AGREEMENT 2D: measured in s*c's hue / mirror grey (blue<0)",
+  "03d s*c FLIP measured<->mirror (frame slider)",
+  "04a s*d' MEASURED",
+  "04b s*d' MIRROR (content-predicted), same scale",
+  "04c s*d' AGREEMENT 2D: measured in s*d''s hue / mirror grey (blue<0)",
+  "04d s*d' FLIP measured<->mirror (frame slider)"
+ ]
+}

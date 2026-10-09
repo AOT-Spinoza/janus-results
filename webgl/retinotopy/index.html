@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retinotopy at two voxel sizes — 3D brain viewers</title>
+<style>
+ body { font: 16px/1.55 -apple-system, "Helvetica Neue", Arial, sans-serif; margin: 2.5rem auto;
+        max-width: 62rem; padding: 0 1rem; color: #1a1a1a; background: #fff; }
+ h1 { font-size: 1.5rem; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+ h3 { font-size: 1rem; margin: 0 0 0.4rem; font-variant-numeric: tabular-nums; }
+ a { color: #0b5fa5; text-decoration: none; } a:hover { text-decoration: underline; }
+ dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.25rem 1rem; }
+ dt { font-weight: 600; } dd { margin: 0; color: #333; }
+ .usage { color: #555; font-size: 0.92em; }
+ .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+          gap: 1.2rem; margin-top: 1rem; }
+ .card { border: 1px solid #e3e3e3; border-radius: 6px; padding: 0.8rem; }
+ .card img { width: 100%; height: auto; display: block; border-radius: 3px; }
+ .card p { margin: 0.5rem 0 0; font-size: 0.92em; }
+ .back { font-size: 0.92em; }
+ footer { margin-top: 3rem; color: #999; font-size: 0.85em; }
+</style></head><body>
+<p class="back"><a href="../../index.html">← all janus results</a></p>
+<h1>Retinotopy at two voxel sizes — 3D brain viewers</h1>
+<p>Every retinotopic estimate for each AOT participant, at the two voxel sizes the data were processed at (2.0 mm and 1.25 mm), to choose which one to draw visual-area borders on. Each viewer holds exactly the layers of that participant&#x27;s ROI-drawing overlay file, in the same order and under the same names.</p>
+<p>Measured population receptive fields (pRF) come from the bar-sweep localizer, fitted with three models; every fitted parameter is included, plus each model&#x27;s cross-validated fit. A colour fades out as the model fit drops: no colour at in-sample R² 0.2 or below, full colour from 0.6.</p>
+<p>Motion-energy maps come from a model that predicts each voxel&#x27;s response to the AOT movies from 2,530 motion-energy filters; a voxel&#x27;s tuning is read off its filter weights. They fade over held-out R² 0.05-0.15. Its polar angle uses the pRF polar colours, so the two retinotopies compare colour for colour; its eccentricity is a centroid estimate pulled toward the frame centre and is on its own 0-2 deg scale.</p>
+<p>At 1.25 mm the motion-energy model could only be fitted where the 1.25 mm main-task data exist: sub-002, sub-003 and sub-004 completely; sub-001 (10 of 12 sessions), sub-007 (9 of 12) and sub-005 (2 of 12) in part; sub-006 and sub-008 not at all.</p>
+<dl>
+<dt>pRF, normalization model</dt><dd>divisive-normalization pRF (the model that passes the size-grows-with-eccentricity check)</dd>
+<dt>pRF, DoG model</dt><dd>difference-of-Gaussians pRF (centre minus surround)</dd>
+<dt>pRF, Gaussian model</dt><dd>isotropic Gaussian pRF</dd>
+<dt>polar angle</dt><dd>0 = right horizontal meridian, +90 = upper vertical, ±180 = left horizontal, -90 = lower vertical</dd>
+<dt>motion-energy RF</dt><dd>receptive-field properties read from the motion-energy model&#x27;s filter weights; positions relative to the movie frame&#x27;s centre (participants fixated centrally)</dd>
+</dl>
+<p class="usage">In a viewer: choose a map in the dataset menu, drag to rotate, scroll to zoom, and use the inflation slider to flatten the cortex. Needs a browser with WebGL; loading takes a few seconds.</p>
+<h2>Participants</h2>
+<div class="grid">
+<div class="card"><h3>sub-001</h3><a href="sub-001_res-2p0mm/index.html"><img src="previews/sub-001_resolution_comparison_thumb.jpg" alt="sub-001: preview of the maps" loading="lazy"></a><p><a href="sub-001_res-2p0mm/index.html">2.0 mm viewer</a> · <a href="sub-001_res-1p25mm/index.html">1.25 mm viewer</a> · <a href="previews/sub-001_resolution_comparison.png">all maps on the flatmap (image)</a></p></div>
+<div class="card"><h3>sub-002</h3><a href="sub-002_res-2p0mm/index.html"><img src="previews/sub-002_resolution_comparison_thumb.jpg" alt="sub-002: preview of the maps" loading="lazy"></a><p><a href="sub-002_res-2p0mm/index.html">2.0 mm viewer</a> · <a href="sub-002_res-1p25mm/index.html">1.25 mm viewer</a> · <a href="previews/sub-002_resolution_comparison.png">all maps on the flatmap (image)</a></p></div>
+<div class="card"><h3>sub-003</h3><a href="sub-003_res-2p0mm/index.html"><img src="previews/sub-003_resolution_comparison_thumb.jpg" alt="sub-003: preview of the maps" loading="lazy"></a><p><a href="sub-003_res-2p0mm/index.html">2.0 mm viewer</a> · <a href="sub-003_res-1p25mm/index.html">1.25 mm viewer</a> · <a href="previews/sub-003_resolution_comparison.png">all maps on the flatmap (image)</a></p></div>
+<div class="card"><h3>sub-004</h3><a href="sub-004_res-2p0mm/index.html"><img src="previews/sub-004_resolution_comparison_thumb.jpg" alt="sub-004: preview of the maps" loading="lazy"></a><p><a href="sub-004_res-2p0mm/index.html">2.0 mm viewer</a> · <a href="sub-004_res-1p25mm/index.html">1.25 mm viewer</a> · <a href="previews/sub-004_resolution_comparison.png">all maps on the flatmap (image)</a></p></div>
+<div class="card"><h3>sub-005</h3><a href="sub-005_res-2p0mm/index.html"><img src="previews/sub-005_resolution_comparison_thumb.jpg" alt="sub-005: preview of the maps" loading="lazy"></a><p><a href="sub-005_res-2p0mm/index.html">2.0 mm viewer</a> · <a href="sub-005_res-1p25mm/index.html">1.25 mm viewer</a> · <a href="previews/sub-005_resolution_comparison.png">all maps on the flatmap (image)</a></p></div>
+<div class="card"><h3>sub-006</h3><a href="sub-006_res-2p0mm/index.html"><img src="previews/sub-006_resolution_comparison_thumb.jpg" alt="sub-006: preview of the maps" loading="lazy"></a><p><a href="sub-006_res-2p0mm/index.html">2.0 mm viewer</a> · <a href="sub-006_res-1p25mm/index.html">1.25 mm viewer</a> · <a href="previews/sub-006_resolution_comparison.png">all maps on the flatmap (image)</a></p></div>
+<div class="card"><h3>sub-007</h3><a href="sub-007_res-2p0mm/index.html"><img src="previews/sub-007_resolution_comparison_thumb.jpg" alt="sub-007: preview of the maps" loading="lazy"></a><p><a href="sub-007_res-2p0mm/index.html">2.0 mm viewer</a> · <a href="sub-007_res-1p25mm/index.html">1.25 mm viewer</a> · <a href="previews/sub-007_resolution_comparison.png">all maps on the flatmap (image)</a></p></div>
+<div class="card"><h3>sub-008</h3><a href="sub-008_res-2p0mm/index.html"><img src="previews/sub-008_resolution_comparison_thumb.jpg" alt="sub-008: preview of the maps" loading="lazy"></a><p><a href="sub-008_res-2p0mm/index.html">2.0 mm viewer</a> · <a href="sub-008_res-1p25mm/index.html">1.25 mm viewer</a> · <a href="previews/sub-008_resolution_comparison.png">all maps on the flatmap (image)</a></p></div>
+</div>
+<footer>generated by janus · b0fed7e · 2026-10-09</footer>
+</body></html>
